@@ -1,0 +1,108 @@
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Ср 29 апр 2015 01:18:05
+
+BeginCmp
+TimeStamp = /553F8720;
+Reference = C1;
+ValeurCmp = 680uF;
+IdModule  = c_elec_6.3x7.7;
+EndCmp
+
+BeginCmp
+TimeStamp = /553F7370;
+Reference = C2;
+ValeurCmp = 220uF;
+IdModule  = c_elec_6.3x7.7;
+EndCmp
+
+BeginCmp
+TimeStamp = /553F5F10;
+Reference = D1;
+ValeurCmp = 1N5822;
+IdModule  = DO-214AC(SMA);
+EndCmp
+
+BeginCmp
+TimeStamp = /553FE0CE;
+Reference = IC1;
+ValeurCmp = LM2596S;
+IdModule  = TO263-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /553FD8B8;
+Reference = IC2;
+ValeurCmp = L293D;
+IdModule  = so-16;
+EndCmp
+
+BeginCmp
+TimeStamp = /553FD8CF;
+Reference = IC3;
+ValeurCmp = L293D;
+IdModule  = so-16;
+EndCmp
+
+BeginCmp
+TimeStamp = /553F61C7;
+Reference = L1;
+ValeurCmp = 33uH;
+IdModule  = c_tant_X;
+EndCmp
+
+BeginCmp
+TimeStamp = /553E8582;
+Reference = P1;
+ValeurCmp = CONN_13X2;
+IdModule  = pin_array_13x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /553E85DA;
+Reference = P2;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /553E85FE;
+Reference = P3;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /553F8507;
+Reference = P4;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /553F8028;
+Reference = P5;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /553E861F;
+Reference = P6;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /553E8625;
+Reference = P7;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /553E752B;
+Reference = U1;
+ValeurCmp = 74HC595;
+IdModule  = so-8;
+EndCmp
+
+EndListe
