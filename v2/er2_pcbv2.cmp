@@ -1,24 +1,38 @@
-Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Ср 29 апр 2015 01:18:05
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Ср 06 май 2015 02:39:45
 
 BeginCmp
-TimeStamp = /553F8720;
+TimeStamp = /55401C2D;
 Reference = C1;
-ValeurCmp = 680uF;
+ValeurCmp = 100uF;
 IdModule  = c_elec_6.3x7.7;
 EndCmp
 
 BeginCmp
-TimeStamp = /553F7370;
+TimeStamp = /55401C3A;
 Reference = C2;
 ValeurCmp = 220uF;
 IdModule  = c_elec_6.3x7.7;
 EndCmp
 
 BeginCmp
-TimeStamp = /553F5F10;
+TimeStamp = /554955EA;
 Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /553F5F10;
+Reference = D2;
 ValeurCmp = 1N5822;
 IdModule  = DO-214AC(SMA);
+EndCmp
+
+BeginCmp
+TimeStamp = /55493E25;
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = LED-0805;
 EndCmp
 
 BeginCmp
@@ -78,14 +92,14 @@ IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
-TimeStamp = /553F8028;
+TimeStamp = /553E861F;
 Reference = P5;
 ValeurCmp = CONN_2;
 IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
-TimeStamp = /553E861F;
+TimeStamp = /553F8028;
 Reference = P6;
 ValeurCmp = CONN_2;
 IdModule  = PIN_ARRAY_2X1;
@@ -96,6 +110,20 @@ TimeStamp = /553E8625;
 Reference = P7;
 ValeurCmp = CONN_2;
 IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5549595B;
+Reference = R1;
+ValeurCmp = 330R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55493E16;
+Reference = R2;
+ValeurCmp = 330R;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
