@@ -1,4 +1,4 @@
-update=Вс 24 май 2015 16:41:35
+update=Вс 24 май 2015 21:35:33
 version=1
 last_client=eeschema
 [pcbnew]
@@ -88,3 +88,4 @@ LibName30=valves
 LibName31=er2_pcbv2-cache
 LibName32=lib/linear2/linear2
 LibName33=lib/xc6206
+LibName34=lib/mma7455
