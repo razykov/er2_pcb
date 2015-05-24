@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Ср 06 май 2015 02:39:45
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Вс 24 май 2015 17:16:46
 
 BeginCmp
 TimeStamp = /55401C2D;
@@ -12,6 +12,20 @@ TimeStamp = /55401C3A;
 Reference = C2;
 ValeurCmp = 220uF;
 IdModule  = c_elec_6.3x7.7;
+EndCmp
+
+BeginCmp
+TimeStamp = /5561DB85;
+Reference = C3;
+ValeurCmp = 1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5561DB92;
+Reference = C4;
+ValeurCmp = 1uF;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
@@ -43,17 +57,24 @@ IdModule  = TO263-5;
 EndCmp
 
 BeginCmp
-TimeStamp = /553FD8B8;
+TimeStamp = /5561D70D;
 Reference = IC2;
+ValeurCmp = XC6206;
+IdModule  = sot23;
+EndCmp
+
+BeginCmp
+TimeStamp = /553FD8B8;
+Reference = IC3;
 ValeurCmp = L293D;
-IdModule  = so-16;
+IdModule  = SSOP20;
 EndCmp
 
 BeginCmp
 TimeStamp = /553FD8CF;
-Reference = IC3;
+Reference = IC4;
 ValeurCmp = L293D;
-IdModule  = so-16;
+IdModule  = SSOP20;
 EndCmp
 
 BeginCmp
@@ -130,7 +151,7 @@ BeginCmp
 TimeStamp = /553E752B;
 Reference = U1;
 ValeurCmp = 74HC595;
-IdModule  = so-8;
+IdModule  = ssop-16;
 EndCmp
 
 EndListe

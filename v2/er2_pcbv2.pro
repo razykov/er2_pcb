@@ -1,6 +1,6 @@
-update=Ср 06 май 2015 02:34:57
+update=Вс 24 май 2015 16:41:35
 version=1
-last_client=cvpcb
+last_client=eeschema
 [pcbnew]
 version=1
 LastNetListRead=
@@ -41,6 +41,11 @@ LibName17=lib/Dioden_SMD_RevA_06Sep2012/Dioden_SMD_RevA_06Sep2012
 LibDir=lib
 [general]
 version=1
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [eeschema]
 version=1
 LibDir=
@@ -82,8 +87,4 @@ LibName29=contrib
 LibName30=valves
 LibName31=er2_pcbv2-cache
 LibName32=lib/linear2/linear2
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+LibName33=lib/xc6206
