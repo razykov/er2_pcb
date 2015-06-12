@@ -40,7 +40,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
 Title "er2 controller pcb"
-Date "24 may 2015"
+Date "12 jun 2015"
 Rev ""
 Comp "Institute for Mathematics, Mechanics, and Computer Science in the name of I.I. Vorovich"
 Comment1 ""
@@ -66,10 +66,10 @@ Wire Wire Line
 Text Notes 5050 3500 0    60   ~ 0
   Raspberry PI\nGPIO connector
 $Comp
-L GND #PWR3
+L GND #PWR01
 U 1 1 553FB7B8
 P 6300 4100
-F 0 "#PWR3" H 6300 4100 30  0001 C CNN
+F 0 "#PWR01" H 6300 4100 30  0001 C CNN
 F 1 "GND" H 6300 4030 30  0001 C CNN
 F 2 "" H 6300 4100 60  0000 C CNN
 F 3 "" H 6300 4100 60  0000 C CNN
@@ -101,10 +101,10 @@ F 3 "~" H 3900 4100 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR1
+L GND #PWR02
 U 1 1 554955F0
 P 3650 4400
-F 0 "#PWR1" H 3650 4400 30  0001 C CNN
+F 0 "#PWR02" H 3650 4400 30  0001 C CNN
 F 1 "GND" H 3650 4330 30  0001 C CNN
 F 2 "" H 3650 4400 60  0000 C CNN
 F 3 "" H 3650 4400 60  0000 C CNN
@@ -204,10 +204,10 @@ Wire Wire Line
 Wire Wire Line
 	4650 4300 5000 4300
 $Comp
-L +5V #PWR2
+L +5V #PWR03
 U 1 1 55621EDD
 P 6300 3750
-F 0 "#PWR2" H 6300 3840 20  0001 C CNN
+F 0 "#PWR03" H 6300 3840 20  0001 C CNN
 F 1 "+5V" H 6300 3840 30  0000 C CNN
 F 2 "" H 6300 3750 60  0000 C CNN
 F 3 "" H 6300 3750 60  0000 C CNN
