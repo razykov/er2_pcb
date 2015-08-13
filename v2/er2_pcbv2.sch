@@ -33,6 +33,7 @@ LIBS:er2_pcbv2-cache
 LIBS:linear2
 LIBS:xc6206
 LIBS:mma7455
+LIBS:l293dd
 LIBS:er2_pcbv2-cache
 EELAYER 27 0
 EELAYER END
@@ -40,7 +41,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
 Title "er2 controller pcb"
-Date "12 jun 2015"
+Date "1 jul 2015"
 Rev ""
 Comp "Institute for Mathematics, Mechanics, and Computer Science in the name of I.I. Vorovich"
 Comment1 ""
@@ -49,10 +50,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L CONN_13X2 P1
+L CONN_13X2 P3
 U 1 1 553E8582
 P 5400 4400
-F 0 "P1" H 5400 5100 60  0000 C CNN
+F 0 "P3" H 5400 5100 60  0000 C CNN
 F 1 "CONN_13X2" V 5400 4400 50  0000 C CNN
 F 2 "~" H 5400 4400 60  0000 C CNN
 F 3 "~" H 5400 4400 60  0000 C CNN
@@ -77,12 +78,7 @@ F 3 "" H 6300 4100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 5000 4600
-NoConn ~ 5000 4700
-NoConn ~ 5000 4800
-NoConn ~ 5000 4900
 NoConn ~ 5000 5000
-NoConn ~ 5800 5000
-NoConn ~ 5800 4900
 NoConn ~ 5800 4700
 NoConn ~ 5800 4400
 NoConn ~ 5800 4200
@@ -228,9 +224,7 @@ F3 "SCL" I R 4450 2700 60
 $EndSheet
 NoConn ~ 5000 3800
 Wire Wire Line
-	5000 3900 4850 3900
-Wire Wire Line
-	4850 3900 4850 2500
+	4850 3900 5000 3900
 Wire Wire Line
 	4850 2500 4450 2500
 Wire Wire Line
@@ -239,4 +233,161 @@ Wire Wire Line
 	4800 2700 4800 4000
 Wire Wire Line
 	4800 4000 5000 4000
+$Comp
+L CONN_3X2 P1
+U 1 1 5591DAFD
+P 3650 5500
+F 0 "P1" H 3650 5750 50  0000 C CNN
+F 1 "CONN_3X2" V 3650 5550 40  0000 C CNN
+F 2 "~" H 3650 5500 60  0000 C CNN
+F 3 "~" H 3650 5500 60  0000 C CNN
+	1    3650 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_3X2 P2
+U 1 1 5591DB76
+P 3650 6150
+F 0 "P2" H 3650 6400 50  0000 C CNN
+F 1 "CONN_3X2" V 3650 6200 40  0000 C CNN
+F 2 "~" H 3650 6150 60  0000 C CNN
+F 3 "~" H 3650 6150 60  0000 C CNN
+	1    3650 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 4700 3150 4700
+Wire Wire Line
+	3150 4700 3150 6100
+Wire Wire Line
+	3150 5450 3250 5450
+Wire Wire Line
+	3150 6100 3250 6100
+Connection ~ 3150 5450
+Wire Wire Line
+	3100 4900 5000 4900
+Wire Wire Line
+	3100 4900 3100 6200
+Wire Wire Line
+	3100 5550 3250 5550
+Wire Wire Line
+	3100 6200 3250 6200
+Connection ~ 3100 5550
+Wire Wire Line
+	3250 6000 3050 6000
+Wire Wire Line
+	3050 5350 3050 6600
+Wire Wire Line
+	3050 5350 3250 5350
+$Comp
+L GND #PWR04
+U 1 1 5591E894
+P 3050 6600
+F 0 "#PWR04" H 3050 6600 30  0001 C CNN
+F 1 "GND" H 3050 6530 30  0001 C CNN
+F 2 "" H 3050 6600 60  0000 C CNN
+F 3 "" H 3050 6600 60  0000 C CNN
+	1    3050 6600
+	1    0    0    -1  
+$EndComp
+Connection ~ 3050 6000
+Wire Wire Line
+	4050 6200 4300 6200
+Wire Wire Line
+	4050 5550 5900 5550
+Wire Wire Line
+	4200 6100 4050 6100
+Wire Wire Line
+	4200 4800 4200 6100
+Wire Wire Line
+	4200 5450 4050 5450
+Connection ~ 4200 5450
+Wire Wire Line
+	4200 4800 5000 4800
+Wire Wire Line
+	4050 6000 4250 6000
+Wire Wire Line
+	4250 6000 4250 5350
+Wire Wire Line
+	4050 5350 4400 5350
+$Comp
+L +5V #PWR05
+U 1 1 5591EF25
+P 4400 5200
+F 0 "#PWR05" H 4400 5290 20  0001 C CNN
+F 1 "+5V" H 4400 5290 30  0000 C CNN
+F 2 "" H 4400 5200 60  0000 C CNN
+F 3 "" H 4400 5200 60  0000 C CNN
+	1    4400 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 5350 4400 5200
+Connection ~ 4250 5350
+Wire Wire Line
+	5900 5550 5900 5000
+Wire Wire Line
+	5900 5000 5800 5000
+Wire Wire Line
+	5800 4900 5950 4900
+Wire Wire Line
+	5950 4900 5950 5600
+Wire Wire Line
+	5950 5600 4300 5600
+Wire Wire Line
+	4300 5600 4300 6200
+Wire Wire Line
+	5800 2800 5800 2900
+Wire Wire Line
+	5900 2800 5900 2950
+$Comp
+L +5V #PWR06
+U 1 1 55935D38
+P 5450 2550
+F 0 "#PWR06" H 5450 2640 20  0001 C CNN
+F 1 "+5V" H 5450 2640 30  0000 C CNN
+F 2 "" H 5450 2550 60  0000 C CNN
+F 3 "" H 5450 2550 60  0000 C CNN
+	1    5450 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 2550 5450 2850
+$Comp
+L GND #PWR07
+U 1 1 55935E4C
+P 5700 3100
+F 0 "#PWR07" H 5700 3100 30  0001 C CNN
+F 1 "GND" H 5700 3030 30  0001 C CNN
+F 2 "" H 5700 3100 60  0000 C CNN
+F 3 "" H 5700 3100 60  0000 C CNN
+	1    5700 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_5 P10
+U 1 1 55935FAC
+P 5800 2400
+F 0 "P10" V 5750 2400 50  0000 C CNN
+F 1 "CONN_5" V 5850 2400 50  0000 C CNN
+F 2 "~" H 5800 2400 60  0000 C CNN
+F 3 "~" H 5800 2400 60  0000 C CNN
+	1    5800 2400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4850 2500 4850 3900
+Wire Wire Line
+	5600 2800 5600 2850
+Wire Wire Line
+	5600 2850 5450 2850
+Wire Wire Line
+	5800 2900 4800 2900
+Connection ~ 4800 2900
+Wire Wire Line
+	5900 2950 4850 2950
+Connection ~ 4850 2950
+Wire Wire Line
+	5700 2800 5700 3100
+NoConn ~ 6000 2800
 $EndSCHEMATC
