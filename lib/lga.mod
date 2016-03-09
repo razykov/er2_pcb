@@ -1,11 +1,11 @@
-PCBNEW-LibModule-V1  Пн 25 май 2015 02:15:58
+PCBNEW-LibModule-V1  Пн 31 авг 2015 13:59:34
 # encoding utf-8
 Units mm
 $INDEX
 LGA_14
 $EndINDEX
 $MODULE LGA_14
-Po 0 0 0 15 55625B1F 00000000 ~~
+Po 0 0 0 15 55E4331E 00000000 ~~
 Li LGA_14
 Sc 0
 AR 
@@ -21,98 +21,98 @@ Sh "1" R 0.5 0.8 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -2 -1.1
+Po 2 -1.1
 $EndPAD
 $PAD
 Sh "2" R 0.5 0.8 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -1.2 -1.1
+Po 1.2 -1.1
 $EndPAD
 $PAD
 Sh "3" R 0.5 0.8 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -0.4 -1.1
+Po 0.4 -1.1
 $EndPAD
 $PAD
 Sh "4" R 0.5 0.8 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 0.4 -1.1
+Po -0.4 -1.1
 $EndPAD
 $PAD
 Sh "5" R 0.5 0.8 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 1.2 -1.1
+Po -1.2 -1.1
 $EndPAD
 $PAD
 Sh "6" R 0.5 0.8 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 2 -1.1
+Po -2 -1.1
 $EndPAD
 $PAD
 Sh "7" R 0.8 0.5 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 2 0
+Po -2 0
 $EndPAD
 $PAD
 Sh "8" R 0.5 0.8 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 2 1
+Po -2 1.1
 $EndPAD
 $PAD
 Sh "9" R 0.5 0.8 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 1.2 1
+Po -1.2 1.1
 $EndPAD
 $PAD
 Sh "10" R 0.5 0.8 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 0.4 1
+Po -0.4 1.1
 $EndPAD
 $PAD
 Sh "11" R 0.5 0.8 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -0.4 1
+Po 0.4 1.1
 $EndPAD
 $PAD
 Sh "12" R 0.5 0.8 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -1.2 1
+Po 1.2 1.1
 $EndPAD
 $PAD
 Sh "13" R 0.5 0.8 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -2 1
+Po 2 1.1
 $EndPAD
 $PAD
 Sh "14" R 0.8 0.5 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -2 0
+Po 2 0
 $EndPAD
 $EndMODULE LGA_14
 $EndLIBRARY

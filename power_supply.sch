@@ -29,12 +29,10 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:er2_pcbv2-cache
 LIBS:linear2
 LIBS:xc6206
 LIBS:mma7455
 LIBS:l293dd
-LIBS:er2_pcbv2-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268

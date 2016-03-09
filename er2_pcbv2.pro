@@ -1,6 +1,6 @@
-update=Ср 01 июл 2015 23:48:58
+update=Вт 25 авг 2015 20:17:52
 version=1
-last_client=pcbnew
+last_client=kicad
 [eeschema]
 version=1
 LibDir=
@@ -50,8 +50,6 @@ version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
-[general]
-version=1
 [pcbnew]
 version=1
 LastNetListRead=er2_pcbv2.net
@@ -93,3 +91,5 @@ LibName17=lib/Dioden_SMD_RevA_06Sep2012/Dioden_SMD_RevA_06Sep2012
 LibName18=lga
 LibName19=ref-packages
 LibName20=other
+[general]
+version=1
