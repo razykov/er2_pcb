@@ -380,55 +380,12 @@ F 3 "" H 7150 2700 60  0000 C CNN
 	1    7150 2700
 	1    0    0    -1  
 $EndComp
-$Comp
-L CONN_2 P5
-U 1 1 5561E9E3
-P 5600 2400
-F 0 "P5" V 5550 2400 40  0000 C CNN
-F 1 "CONN_2" V 5650 2400 40  0000 C CNN
-F 2 "" H 5600 2400 60  0001 C CNN
-F 3 "~" H 5600 2400 60  0000 C CNN
-	1    5600 2400
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR023
-U 1 1 5561E9E9
-P 5150 2700
-F 0 "#PWR023" H 5150 2700 30  0001 C CNN
-F 1 "GND" H 5150 2630 30  0001 C CNN
-F 2 "" H 5150 2700 60  0000 C CNN
-F 3 "" H 5150 2700 60  0000 C CNN
-	1    5150 2700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7150 2150 7150 2300
 Wire Wire Line
 	7150 2300 7700 2300
-Wire Wire Line
-	5150 2150 5150 2300
-Wire Wire Line
-	5150 2300 5250 2300
 Text Notes 8200 2400 0    60   ~ 0
 Power supply\nvoltage (+12V)
-Text Notes 5750 2350 0    60   ~ 0
-Raspberry PI\npower supply\nvoltage (+5V)
-$Comp
-L +5V #PWR024
-U 1 1 5561E9F6
-P 5150 2150
-F 0 "#PWR024" H 5150 2240 20  0001 C CNN
-F 1 "+5V" H 5150 2240 30  0000 C CNN
-F 2 "" H 5150 2150 60  0000 C CNN
-F 3 "" H 5150 2150 60  0000 C CNN
-	1    5150 2150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5250 2500 5150 2500
-Wire Wire Line
-	5150 2500 5150 2700
 Wire Wire Line
 	7150 2500 7150 2700
 Wire Wire Line
