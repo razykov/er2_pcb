@@ -10,7 +10,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -29,11 +28,12 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:er2_pcbv2-cache
 LIBS:linear2
 LIBS:xc6206
 LIBS:mma7455
 LIBS:l293dd
-EELAYER 27 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -110,20 +110,20 @@ Wire Wire Line
 Wire Wire Line
 	3650 4100 3700 4100
 Wire Wire Line
-	4700 4100 5000 4100
+	4600 4100 5000 4100
 $Comp
 L R R1
 U 1 1 5549595B
 P 4450 4100
 F 0 "R1" V 4530 4100 40  0000 C CNN
-F 1 "330R" V 4457 4101 40  0000 C CNN
+F 1 "1,5k" V 4457 4101 40  0000 C CNN
 F 2 "~" V 4380 4100 30  0000 C CNN
 F 3 "~" H 4450 4100 30  0000 C CNN
 	1    4450 4100
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4100 4100 4200 4100
+	4100 4100 4300 4100
 $Sheet
 S 6900 2450 1200 650 
 U 5561E615
