@@ -1,4 +1,4 @@
-update=Вт 28 июн 2016 02:15:22
+update=Вт 28 июн 2016 18:24:44
 version=1
 last_client=kicad
 [cvpcb]
@@ -84,5 +84,6 @@ LibName30=er2_pcbv2-cache
 LibName31=lib/linear2/linear2
 LibName32=lib/xc6206
 LibName33=lib/l293dd
+LibName34=lib/mpu-6050
 [general]
 version=1

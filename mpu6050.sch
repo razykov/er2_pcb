@@ -1,0 +1,288 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:er2_pcbv2-cache
+LIBS:linear2
+LIBS:xc6206
+LIBS:l293dd
+LIBS:mpu-6050
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title "mpu6050"
+Date ""
+Rev ""
+Comp "Institute for Mathematics, Mechanics, and Computer Science in the name of I.I. Vorovich"
+Comment1 ""
+Comment2 "V. Razykov"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MPU-6050 U2
+U 1 1 5771B961
+P 5950 4000
+F 0 "U2" H 6300 3300 60  0000 C CNN
+F 1 "MPU-6050" H 5700 3300 60  0000 C CNN
+F 2 "Housings_DFN_QFN:QFN-24-1EP_4x4mm_Pitch0.5mm" H 5950 3750 60  0001 C CNN
+F 3 "" H 5950 3750 60  0000 C CNN
+	1    5950 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR037
+U 1 1 57722230
+P 3800 3050
+F 0 "#PWR037" H 3800 2900 50  0001 C CNN
+F 1 "+3.3V" H 3800 3190 50  0000 C CNN
+F 2 "" H 3800 3050 50  0000 C CNN
+F 3 "" H 3800 3050 50  0000 C CNN
+	1    3800 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR038
+U 1 1 57722246
+P 3800 3950
+F 0 "#PWR038" H 3800 3700 50  0001 C CNN
+F 1 "GND" H 3800 3800 50  0000 C CNN
+F 2 "" H 3800 3950 50  0000 C CNN
+F 3 "" H 3800 3950 50  0000 C CNN
+	1    3800 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C12
+U 1 1 57722260
+P 3800 3750
+F 0 "C12" H 3810 3820 50  0000 L CNN
+F 1 "0.1uF" H 3810 3670 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3800 3750 50  0001 C CNN
+F 3 "" H 3800 3750 50  0000 C CNN
+	1    3800 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C14
+U 1 1 5772230F
+P 4400 3750
+F 0 "C14" H 4410 3820 50  0000 L CNN
+F 1 "0.1uF" H 4410 3670 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4400 3750 50  0001 C CNN
+F 3 "" H 4400 3750 50  0000 C CNN
+	1    4400 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR039
+U 1 1 57722361
+P 4700 3950
+F 0 "#PWR039" H 4700 3700 50  0001 C CNN
+F 1 "GND" H 4700 3800 50  0000 C CNN
+F 2 "" H 4700 3950 50  0000 C CNN
+F 3 "" H 4700 3950 50  0000 C CNN
+	1    4700 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C15
+U 1 1 5772239E
+P 4700 3750
+F 0 "C15" H 4710 3820 50  0000 L CNN
+F 1 "2.2nF" H 4710 3670 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4700 3750 50  0001 C CNN
+F 3 "" H 4700 3750 50  0000 C CNN
+	1    4700 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR040
+U 1 1 57722508
+P 4400 3950
+F 0 "#PWR040" H 4400 3700 50  0001 C CNN
+F 1 "GND" H 4400 3800 50  0000 C CNN
+F 2 "" H 4400 3950 50  0000 C CNN
+F 3 "" H 4400 3950 50  0000 C CNN
+	1    4400 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 3550 5150 3550
+Wire Wire Line
+	4400 3450 5150 3450
+$Comp
+L GND #PWR041
+U 1 1 577225CD
+P 5000 3950
+F 0 "#PWR041" H 5000 3700 50  0001 C CNN
+F 1 "GND" H 5000 3800 50  0000 C CNN
+F 2 "" H 5000 3950 50  0000 C CNN
+F 3 "" H 5000 3950 50  0000 C CNN
+	1    5000 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 3950 5000 3750
+Wire Wire Line
+	5000 3750 5150 3750
+Wire Wire Line
+	4700 3950 4700 3850
+Wire Wire Line
+	4400 3950 4400 3850
+Wire Wire Line
+	4400 3650 4400 3450
+Wire Wire Line
+	4700 3650 4700 3550
+Wire Wire Line
+	3800 3950 3800 3850
+Wire Wire Line
+	3800 3050 3800 3650
+$Comp
+L GND #PWR042
+U 1 1 57722D08
+P 6900 4200
+F 0 "#PWR042" H 6900 3950 50  0001 C CNN
+F 1 "GND" H 6900 4050 50  0000 C CNN
+F 2 "" H 6900 4200 50  0000 C CNN
+F 3 "" H 6900 4200 50  0000 C CNN
+	1    6900 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 3800 6900 4200
+$Comp
+L R R11
+U 1 1 57722D56
+P 7000 2950
+F 0 "R11" V 7080 2950 50  0000 C CNN
+F 1 "10k" V 7000 2950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 6930 2950 50  0001 C CNN
+F 3 "" H 7000 2950 50  0000 C CNN
+	1    7000 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R12
+U 1 1 57722DD3
+P 7200 2950
+F 0 "R12" V 7280 2950 50  0000 C CNN
+F 1 "10k" V 7200 2950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 7130 2950 50  0001 C CNN
+F 3 "" H 7200 2950 50  0000 C CNN
+	1    7200 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR043
+U 1 1 57722E0B
+P 7100 2700
+F 0 "#PWR043" H 7100 2550 50  0001 C CNN
+F 1 "+3.3V" H 7100 2840 50  0000 C CNN
+F 2 "" H 7100 2700 50  0000 C CNN
+F 3 "" H 7100 2700 50  0000 C CNN
+	1    7100 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 2800 7000 2750
+Wire Wire Line
+	7000 2750 7200 2750
+Wire Wire Line
+	7100 2750 7100 2700
+Wire Wire Line
+	7200 2750 7200 2800
+Connection ~ 7100 2750
+Wire Wire Line
+	6700 3200 7450 3200
+Wire Wire Line
+	7000 3200 7000 3100
+Wire Wire Line
+	6700 3300 7450 3300
+Wire Wire Line
+	7200 3300 7200 3100
+Connection ~ 7000 3200
+Connection ~ 7200 3300
+Wire Wire Line
+	6900 3900 6700 3900
+Connection ~ 6900 4050
+Wire Wire Line
+	6900 3800 6700 3800
+Connection ~ 6900 3900
+NoConn ~ 6700 3700
+$Comp
+L C_Small C13
+U 1 1 577287A7
+P 4100 3750
+F 0 "C13" H 4110 3820 50  0000 L CNN
+F 1 "10nF" H 4110 3670 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4100 3750 50  0001 C CNN
+F 3 "" H 4100 3750 50  0000 C CNN
+	1    4100 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR044
+U 1 1 57728850
+P 4100 3950
+F 0 "#PWR044" H 4100 3700 50  0001 C CNN
+F 1 "GND" H 4100 3800 50  0000 C CNN
+F 2 "" H 4100 3950 50  0000 C CNN
+F 3 "" H 4100 3950 50  0000 C CNN
+	1    4100 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 3950 4100 3850
+Wire Wire Line
+	4100 3650 4100 3300
+Wire Wire Line
+	3800 3300 5150 3300
+Wire Wire Line
+	5150 3200 3800 3200
+Connection ~ 3800 3200
+Connection ~ 3800 3300
+Connection ~ 4100 3300
+Text HLabel 7450 3200 2    60   Input ~ 0
+SCL
+Text HLabel 7450 3300 2    60   Input ~ 0
+SDA
+Text HLabel 7050 3450 2    60   Output ~ 0
+AUX_CL
+Text HLabel 7050 3550 2    60   Output ~ 0
+AUX_DA
+Wire Wire Line
+	6700 3450 7050 3450
+Wire Wire Line
+	6700 3550 7050 3550
+Wire Wire Line
+	6700 4050 6900 4050
+$EndSCHEMATC
