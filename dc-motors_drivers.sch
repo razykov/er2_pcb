@@ -40,7 +40,7 @@ encoding utf-8
 Sheet 3 4
 Title ""
 Date "1 jul 2015"
-Rev ""
+Rev "2"
 Comp "Institute for Mathematics, Mechanics, and Computer Science in the name of I.I. Vorovich"
 Comment1 ""
 Comment2 "V. Razykov"
@@ -121,17 +121,6 @@ Text Notes 8950 1600 0    60   ~ 0
   LF\nwheel
 Text Notes 9550 1600 0    60   ~ 0
   RF\nwheel
-$Comp
-L +5V #PWR023
-U 1 1 5561F415
-P 5900 3600
-F 0 "#PWR023" H 5900 3690 20  0001 C CNN
-F 1 "+5V" H 5900 3690 30  0000 C CNN
-F 2 "" H 5900 3600 60  0000 C CNN
-F 3 "" H 5900 3600 60  0000 C CNN
-	1    5900 3600
-	1    0    0    -1  
-$EndComp
 NoConn ~ 7800 4300
 Text HLabel 1100 1500 0    60   Input ~ 0
 pwm1
@@ -837,6 +826,17 @@ F 1 "+12V" H 8500 4340 50  0000 C CNN
 F 2 "" H 8500 4200 50  0000 C CNN
 F 3 "" H 8500 4200 50  0000 C CNN
 	1    8500 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 57730634
+P 5900 3600
+F 0 "#PWR?" H 5900 3450 50  0001 C CNN
+F 1 "+5V" H 5900 3740 50  0000 C CNN
+F 2 "" H 5900 3600 50  0000 C CNN
+F 3 "" H 5900 3600 50  0000 C CNN
+	1    5900 3600
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

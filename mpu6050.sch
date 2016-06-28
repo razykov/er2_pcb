@@ -40,7 +40,7 @@ encoding utf-8
 Sheet 4 4
 Title "mpu6050"
 Date ""
-Rev ""
+Rev "2"
 Comp "Institute for Mathematics, Mechanics, and Computer Science in the name of I.I. Vorovich"
 Comment1 ""
 Comment2 "V. Razykov"

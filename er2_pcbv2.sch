@@ -40,7 +40,7 @@ encoding utf-8
 Sheet 1 4
 Title "er2 controller pcb"
 Date "2016-06-28"
-Rev ""
+Rev "2"
 Comp "Institute for Mathematics, Mechanics, and Computer Science in the name of I.I. Vorovich"
 Comment1 ""
 Comment2 "V. Razykov"
@@ -58,10 +58,6 @@ F 3 "~" H 5400 4400 60  0000 C CNN
 	1    5400 4400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5800 4000 6300 4000
-Wire Wire Line
-	6300 4000 6300 4100
 Text Notes 5050 3500 0    60   ~ 0
   Raspberry PI\nGPIO connector
 NoConn ~ 5000 4600
@@ -149,19 +145,11 @@ Wire Wire Line
 Wire Wire Line
 	8250 5250 4700 5250
 Wire Wire Line
-	4700 5250 4700 4400
-Wire Wire Line
-	4700 4400 5000 4400
-Wire Wire Line
 	8000 4450 8300 4450
 Wire Wire Line
 	8300 4450 8300 5300
 Wire Wire Line
 	8300 5300 4650 5300
-Wire Wire Line
-	4650 5300 4650 4300
-Wire Wire Line
-	4650 4300 5000 4300
 Wire Wire Line
 	4400 3900 5000 3900
 Wire Wire Line
@@ -317,19 +305,15 @@ Wire Wire Line
 	4350 4000 4350 3300
 Wire Wire Line
 	4400 3200 4400 3900
-Wire Wire Line
-	5800 3800 5950 3800
-Wire Wire Line
-	5950 3800 5950 3750
 $Comp
 L +5V #PWR03
 U 1 1 5772A0A4
-P 5950 3750
-F 0 "#PWR03" H 5950 3600 50  0001 C CNN
-F 1 "+5V" H 5950 3890 50  0000 C CNN
-F 2 "" H 5950 3750 50  0000 C CNN
-F 3 "" H 5950 3750 50  0000 C CNN
-	1    5950 3750
+P 6100 3750
+F 0 "#PWR03" H 6100 3600 50  0001 C CNN
+F 1 "+5V" H 6100 3890 50  0000 C CNN
+F 2 "" H 6100 3750 50  0000 C CNN
+F 3 "" H 6100 3750 50  0000 C CNN
+	1    6100 3750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -410,12 +394,28 @@ Connection ~ 4700 3500
 $Comp
 L GND #PWR09
 U 1 1 5772F7CC
-P 6300 4100
-F 0 "#PWR09" H 6300 3850 50  0001 C CNN
-F 1 "GND" H 6300 3950 50  0000 C CNN
-F 2 "" H 6300 4100 50  0000 C CNN
-F 3 "" H 6300 4100 50  0000 C CNN
-	1    6300 4100
+P 6100 4100
+F 0 "#PWR09" H 6100 3850 50  0001 C CNN
+F 1 "GND" H 6100 3950 50  0000 C CNN
+F 2 "" H 6100 4100 50  0000 C CNN
+F 3 "" H 6100 4100 50  0000 C CNN
+	1    6100 4100
 	1    0    0    -1  
 $EndComp
+NoConn ~ 5000 4300
+Wire Wire Line
+	4700 5250 4700 4900
+Connection ~ 4700 4900
+Wire Wire Line
+	4650 5300 4650 4700
+Connection ~ 4650 4700
+NoConn ~ 5000 4400
+Wire Wire Line
+	5800 3800 6100 3800
+Wire Wire Line
+	6100 3800 6100 3750
+Wire Wire Line
+	5800 4000 6100 4000
+Wire Wire Line
+	6100 4000 6100 4100
 $EndSCHEMATC
