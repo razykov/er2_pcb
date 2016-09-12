@@ -28,7 +28,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:er2_pcbv2-cache
 LIBS:linear2
 LIBS:xc6206
 LIBS:l293dd
