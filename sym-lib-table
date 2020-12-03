@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name raspberry_p_plus)(type Legacy)(uri ${KIPRJMOD}/lib/raspberry_p_plus.lib)(options "")(descr ""))
+  (lib (name er2_pcbv2-rescue)(type Legacy)(uri ${KIPRJMOD}/er2_pcbv2-rescue.lib)(options "")(descr ""))
+  (lib (name er2_pcbv2)(type Legacy)(uri ${KIPRJMOD}/er2_pcbv2.lib)(options "")(descr ""))
+)
