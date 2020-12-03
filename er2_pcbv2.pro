@@ -1,4 +1,4 @@
-update=Чт 03 дек 2020 09:54:49
+update=Пт 04 дек 2020 01:17:16
 version=1
 last_client=kicad
 [cvpcb]
@@ -49,16 +49,16 @@ LibName17=lib/Dioden_SMD_RevA_06Sep2012/Dioden_SMD_RevA_06Sep2012
 LibName18=lga
 LibName19=ref-packages
 LibName20=other
+[eeschema]
+version=1
+LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
-NetFmtName=
+NetFmtName=Pcbnew
 SpiceAjustPassiveValues=0
 LabSize=50
 ERC_TestSimilarLabels=1
-[eeschema]
-version=1
-LibDir=
